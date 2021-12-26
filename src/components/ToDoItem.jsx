@@ -1,4 +1,4 @@
-function ToDoItem (props) {
+function ToDoItem (props) {   //props kullanımı
 const {item}= props 
     return(
  
@@ -17,15 +17,12 @@ const {item}= props
 
         >
             {item.title}
-
-         
+      
 
        </li>
-     
-
 
 
     );
 }
 
-export default ToDoItem
+export default ToDoItem   
